@@ -1,0 +1,80 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  min-width: 150px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+.employees {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.employee-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.employee-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.employee-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.employee-card button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.employee-card button:first-of-type {
+  background: #28a745;
+  color: white;
+}
+
+.employee-card button:last-of-type {
+  background: #dc3545;
+  color: white;
+}
